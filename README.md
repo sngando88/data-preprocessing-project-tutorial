@@ -27,7 +27,13 @@ This is a dataset that contains Airbnb data on New York City. You will use it to
 
 **Step 1:**
 
-Go to the following online [dataset](https://www.kaggle.com/datasets/dgomonov/new-york-city-airbnb-open-data) . On the Data tab, download the dataset and put it in your './data/raw' project folder. Time to work on it!
+Use the following online dataset: 
+```
+https://raw.githubusercontent.com/4GeeksAcademy/data-preprocessing-project-tutorial/main/AB_NYC_2019.csv
+```
+
+
+Time to work on it!
 
 **Step 2:**
 
