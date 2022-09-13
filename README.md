@@ -9,10 +9,10 @@
 
 ## 🌱  How to start this project
 
-You will not be forking this time, please take some time to read this instructions:
+You will not be forking this time, please take some time to read these instructions:
 
 1. Create a new repository based on [machine learning project](https://github.com/4GeeksAcademy/machine-learning-python-template/generate) by [clicking here](https://github.com/4GeeksAcademy/machine-learning-python-template).
-2. Open the recently created repostiroy on Gitpod by using the [Gitpod button extension](https://www.gitpod.io/docs/browser-extension/).
+2. Open the recently created repository on Gitpod by using the [Gitpod button extension](https://www.gitpod.io/docs/browser-extension/).
 3. Once Gitpod VSCode has finished opening you start your project following the Instructions below.
 
 ## 🚛 How to deliver this project
@@ -56,6 +56,6 @@ Use the app.py to create your cleaning pipeline that makes data ready for modeli
 
 We used to add our .env file into the .gitignore file in order to hide our passwords and credentials from version control. 
 
-> This time make sure to add the data folder to your .gitignore file. Specially for big datasets, this is very important. 
+> This time make sure to add the data folder to your .gitignore file. Especially for big datasets, this is very important. 
 
 In your README file write a brief summary of your cleaning process and explain where the data comes from (Add the link), because you won't upload any of the data folders.
