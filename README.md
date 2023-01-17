@@ -37,7 +37,7 @@ Time to work on it!
 
 **Step 2:**
 
-Use the explore.ipynb notebook to find patterns and valuable information as much as you can. Make graphs that helps us understand the patterns found, get some statistics, create new variables if needed, etc.
+Use the explore.ipynb notebook to find patterns and valuable information as much as you can. Make graphs that help us understand the patterns found, get some statistics, create new variables if needed, etc.
 
 
 - What can we learn about different hosts and areas?

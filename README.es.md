@@ -1,5 +1,5 @@
 <!-- hide -->
-# Data Pre-processing Project Tutorial
+# Tutorial de Proyecto de Preprocesamiento de Datos
 <!-- endhide -->
 
 - Descarga los datos de Airbnb de Nueva York de Kaggle.com (Encuentra el enlace directo a continuación)
@@ -7,7 +7,7 @@
 - Usa tu cuaderno de exploración para probar diferentes métodos de limpieza.
 - Una vez que tengas tu proceso de limpieza final, usa tu archivo app.py para crear una canalización que limpie tus datos.
 
-## 🌱  Cómo iniciar este proyecto
+## 🌱 Cómo iniciar este proyecto
 
 Esta vez no se hará fork, tómate un tiempo para leer estas instrucciones:
 
