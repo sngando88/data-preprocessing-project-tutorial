@@ -1,61 +1,43 @@
 <!-- hide -->
-# Data Pre-processing Project Tutorial
+# Exploratory data analysis in Python - Step by step guide
 <!-- endhide -->
 
-- Download the New York Airbnb data from Kaggle.com (Find the direct link below)
-- Do as much exploratory data analysis as you can to find patterns and get insights from the data.
-- Use your explore notebook to try different cleaning methods.
-- Once you have your final cleaning process, use your app.py file to create a pipeline that cleans your data.
+- Download New York Airbnb data from Kaggle.com.
+- Perform a complete EDA including all steps of the process.
+- Write down the conclusions of each step and analyze the results on the relationships between the variables.
 
 ## 🌱  How to start this project
 
-You will not be forking this time, please take some time to read these instructions:
+Follow the instructions below:
 
 1. Create a new repository based on [machine learning project](https://github.com/4GeeksAcademy/machine-learning-python-template/generate) by [clicking here](https://github.com/4GeeksAcademy/machine-learning-python-template).
-2. Open the recently created repository on Gitpod by using the [Gitpod button extension](https://www.gitpod.io/docs/browser-extension/).
-3. Once Gitpod VSCode has finished opening you start your project following the Instructions below.
+2. Open the newly created repository in Codespace using the [Codespace button extension](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace-for-a-repository).
+3. Once the Codespace VSCode has finished opening, start your project by following the instructions below.
 
 ## 🚛 How to deliver this project
 
-Once you are finished creating your eda notebook and  your cleaning pipeline, make sure to commit your changes, push to your repository and go to 4Geeks.com to upload the repository link.
+Once you have finished solving the exercises, be sure to commit your changes, push to your repository and go to 4Geeks.com to upload the repository link.
 
 ## 📝 Instructions
 
-**New York City Airbnb data**:
+### Airbnb in New York
 
-This is a dataset that contains Airbnb data on New York City. You will use it to practice your new EDA (exploratory data analysis) and data cleaning skills.
+A company has collected New York housing rental data from the Airbnb app during 2019. This dataset was used to train Machine Learning models during that year, in an open competition.
 
-**Step 1:**
+We will now use it to conduct a study about the variables that make up the dataset in order to understand it and draw conclusions about it.
 
-Use the following online dataset: 
-```
-https://raw.githubusercontent.com/4GeeksAcademy/data-preprocessing-project-tutorial/main/AB_NYC_2019.csv
-```
+#### Step 1: Loading the dataset
 
+You can download the dataset directly from Kaggle.com or from the following link: `https://raw.githubusercontent.com/4GeeksAcademy/data-preprocessing-project-tutorial/main/AB_NYC_2019.csv`. Store the raw data in the `./data/raw` folder.
 
-Time to work on it!
+#### Step 2: Perform a complete EDA
 
-**Step 2:**
+This step is vital to ensure that we keep the variables that are strictly necessary and eliminate those that are not relevant or do not provide information. Use the example Notebook we worked on and adapt it to this use case.
 
-Use the explore.ipynb notebook to find patterns and valuable information as much as you can. Make graphs that help us understand the patterns found, get some statistics, create new variables if needed, etc.
+Be sure to conveniently divide the data set into `train` and `test` as we have seen in the lesson.
 
+#### Step 3: Save the processed dataset
 
-- What can we learn about different hosts and areas?
+After EDA you can save the data in the `./data/processed` folder.
 
-- Which hosts are the busiest and why?
-
-- Is there any noticeable difference of traffic among different areas and what could be the reason for it?
-
-Don't forget to write your observations.
-
-**Step 3:**
-
-Now that you have a beautiful EDA notebook, and you have a better knowledge of the data, let's imagine Airbnb asks you to deliver a machine learning pipeline that cleans the data, in order to give it to their modeling area for future price prediction.
-
-Use the app.py to create your cleaning pipeline that makes data ready for modeling. Save your clean data in the 'Processed' data folder.
-
-We used to add our .env file into the .gitignore file in order to hide our passwords and credentials from version control. 
-
-> This time make sure to add the data folder to your .gitignore file. Especially for big datasets, this is very important. 
-
-In your README file write a brief summary of your cleaning process and explain where the data comes from (Add the link), because you won't upload any of the data folders.
+> NOTE: Make sure to add the data folder in the `.gitignore`. The data as well as the models should not be uploaded to git.
