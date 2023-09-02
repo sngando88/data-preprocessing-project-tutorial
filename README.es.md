@@ -38,6 +38,6 @@ Asegúrate de dividir convenientemente el conjunto de datos en `train` y `test` 
 
 #### Paso 3: Guarda el conjunto de datos procesado
 
-Después del EDA puedes guardar los datos en la carpeta `./data/processed`.
+Después del EDA puedes guardar los datos en la carpeta `./data/processed`. Asegúrate de agregar la carpeta de los datos en el `.gitignore`. Los datos al igual que los modelos no se deben subir a git.
 
-> NOTA: Asegúrate de agregar la carpeta de los datos en el `.gitignore`. Los datos al igual que los modelos no se deben subir a git.
+> NOTA: Solución: https://github.com/4GeeksAcademy/data-preprocessing-project-tutorial/blob/main/solution.ipynb
