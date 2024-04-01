@@ -3,15 +3,15 @@
 <!-- endhide -->
 
 - Descarga los datos de Airbnb de Nueva York de Kaggle.com.
-- Realiza un EDA completo incluyendo todos los pasos del proceso.
+- Realiza un EDA completo, incluyendo todos los pasos del proceso.
 - Escribe las conclusiones de cada paso y analiza los resultados sobre las relaciones entre las variables.
 
-## 🌱  Cómo iniciar este proyecto
+## 🌱 Cómo iniciar este proyecto
 
 Sigue las siguientes instrucciones:
 
-1. Crea un nuevo repositorio basado en el [proyecto de Machine Learing](https://github.com/4GeeksAcademy/machine-learning-python-template/generate) [haciendo clic aquí](https://github.com/4GeeksAcademy/machine-learning-python-template).
-2. Abre el repositorio creado recientemente en Codespace usando la [extensión del botón de Codespace](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace-for-a-repository).
+1. Crea un nuevo repositorio basado en el [proyecto de Machine Learning](https://github.com/4GeeksAcademy/machine-learning-python-template/) o [haciendo clic aquí](https://github.com/4GeeksAcademy/machine-learning-python-template/generate).
+2. Abre el repositorio creado recientemente en Codespace usando la [extensión del botón de Codespace](https://docs.github.com/es/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace-for-a-repository).
 3. Una vez que el VSCode del Codespace haya terminado de abrirse, comienza tu proyecto siguiendo las instrucciones a continuación.
 
 ## 🚛 Cómo entregar este proyecto
@@ -40,4 +40,4 @@ Asegúrate de dividir convenientemente el conjunto de datos en `train` y `test` 
 
 Después del EDA puedes guardar los datos en la carpeta `./data/processed`. Asegúrate de agregar la carpeta de los datos en el `.gitignore`. Los datos al igual que los modelos no se deben subir a git.
 
-> NOTA: Solución: https://github.com/4GeeksAcademy/data-preprocessing-project-tutorial/blob/main/solution.ipynb
+> Nota: También incorporamos muestras de solución en `./solution.ipynb` que te sugerimos honestamente que solo uses si estás atascado por más de 30 minutos o si ya has terminado y quieres compararlo con tu enfoque.
