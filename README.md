@@ -3,20 +3,20 @@
 <!-- endhide -->
 
 - Download New York Airbnb data from Kaggle.com.
-- Perform a complete EDA including all steps of the process.
-- Write down the conclusions of each step and analyze the results on the relationships between the variables.
+- Perform a complete EDA, including all steps of the process.
+- Write down the conclusions of each step and analyze the results based on the relationships between the variables.
 
-## 🌱  How to start this project
+## 🌱 How to start this project
 
 Follow the instructions below:
 
-1. Create a new repository based on [machine learning project](https://github.com/4GeeksAcademy/machine-learning-python-template/generate) by [clicking here](https://github.com/4GeeksAcademy/machine-learning-python-template).
+1. Create a new repository based on our [machine learning project](https://github.com/4GeeksAcademy/machine-learning-python-template/) or [by clicking here](https://github.com/4GeeksAcademy/machine-learning-python-template/generate).
 2. Open the newly created repository in Codespace using the [Codespace button extension](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace-for-a-repository).
 3. Once the Codespace VSCode has finished opening, start your project by following the instructions below.
 
 ## 🚛 How to deliver this project
 
-Once you have finished solving the exercises, be sure to commit your changes, push to your repository and go to 4Geeks.com to upload the repository link.
+Once you have finished solving the exercises, be sure to commit your changes, push them to your repository, and go to 4Geeks.com to upload the repository link.
 
 ## 📝 Instructions
 
@@ -38,6 +38,6 @@ Be sure to conveniently divide the data set into `train` and `test` as we have s
 
 #### Step 3: Save the processed dataset
 
-After EDA you can save the data in the `./data/processed` folder. Make sure to add the data folder in the `.gitignore`. The data as well as the models should not be uploaded to git.
+After the EDA you can save the data in the `./data/processed` folder. Make sure to add the data folder in the `.gitignore`. The data as well as the models should not be uploaded to git.
 
-> NOTE: Solution: https://github.com/4GeeksAcademy/data-preprocessing-project-tutorial/blob/main/solution.ipynb
+> Note: We also incorporated the solution samples on `./solution.ipynb` that we strongly suggest you only use if you are stuck for more than 30 min or if you have already finished and want to compare it with your approach.
